@@ -1,6 +1,6 @@
 # Soccer Ball Detection with Faster R-CNN
 
-A computer vision project for detecting soccer balls in video frames using state-of-the-art deep learning techniques.
+A computer vision project for detecting soccer balls in video frames using deep learning techniques.
 
 ## 📋 Project Overview
 
@@ -32,9 +32,7 @@ The project employs Faster R-CNN for several compelling reasons:
 4. **Class Balance**: Address dataset imbalance (frames with/without balls)
 
 ### Dataset Statistics
-- Total frames from 5 soccer videos: ~7,000
-- Frames with ball detections
-- Frames without ball detections
+- Total frames from 2 soccer videos: ~11,000 frames
 - Custom Dataset class with PyTorch compatibility
 
 ### Data Augmentation
@@ -80,7 +78,7 @@ To address class imbalance, the following augmentations are applied:
 ├── test-notebook.ipynb           # Inference and video generation
 ├── ID_5_256942_252050.json       # Training data
 ├── ID_6_256942_252050.json       # Test data
-└── README.md                      # This file
+└── README.md                     
 ```
 
 ## 🔗 Resources
